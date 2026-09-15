@@ -1,0 +1,4 @@
+﻿Command:
+curl.exe -s https://api.github.com/repos/harismahmood1997/expressBookReviews | jq '.parent.full_name'
+
+Output:

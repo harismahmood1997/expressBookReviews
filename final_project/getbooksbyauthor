@@ -1,0 +1,12 @@
+﻿Command:
+curl.exe http://localhost:5000/author/"Jane Austen"
+
+Output:
+[
+    {
+        "isbn": "8",
+        "author": "Jane Austen",
+        "title": "Pride and Prejudice",
+        "reviews": {}
+    }
+]
